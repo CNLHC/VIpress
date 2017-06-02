@@ -60,14 +60,14 @@ def Blogm_reClassify():
             if os.path.isdir(Path_Root+info[2]):
                 os.rename(t_workpath+Title,Path_Root+info[2]+'/'+Title)
             print info[0],info[1],info[2]
-Path_Root=os.getcwd()+'/'
-File_List=os.listdir(Path_Root)
-File_List=list(File_List)
-try:
-    File_List.remove('Unclassified')
-    File_List.remove('IMG')
-except:
-    os.mkdir(Path_Root+'Unclassified')
+			#Path_Root=os.getcwd()+'/'
+			#File_List=os.listdir(Path_Root)
+			#File_List=list(File_List)
+			#try:
+			#    File_List.remove('Unclassified')
+			#    File_List.remove('IMG')
+			#except:
+			#    os.mkdir(Path_Root+'Unclassified')
 EOF
 
 
