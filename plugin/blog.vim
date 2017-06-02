@@ -85,10 +85,10 @@ import urllib , urllib2 , vim , xml.dom.minidom , xmlrpclib , sys , string , re,
 #      Settings     #
 #####################
 
-blog_username = '****'
-blog_password = '*****'
-blog_url = 'http://domain'  
-blog_api = 'http://domain/xmlrpc.php'  
+blog_username = 'CN_LHC'
+blog_password = 'lhc8848444'
+blog_url = 'http://www.cnworkshop.tech'  
+blog_api = 'http://www.cnworkshop.tech/xmlrpc.php'  
 img_dir = '/path/to/files/'
 
 #Remove this line if you wish to just have the url inserted
